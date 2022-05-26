@@ -19,6 +19,10 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  */
 public class Card {
 
+    static String SUITS(double random) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
    private String suit; //clubs, spades, diamonds, hearts
    private int value;//1-13
 
