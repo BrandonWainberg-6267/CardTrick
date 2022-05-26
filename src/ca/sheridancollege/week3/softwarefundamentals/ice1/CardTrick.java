@@ -26,8 +26,11 @@ public class CardTrick {
            magicHand[i].setSuit(Card.SUITS[(int)Math.random()*4]);
         }
         Scanner Card = new Scanner(System.in);
-        System.out.println("Please enter the cards value and suit");
-        String Hand = Card.next();
+        System.out.println("Please enter the cards suit (Hearts,Diamonds,Spades,Clubs");
+        String suit=Card.next();
+        System.out.println("Please enter the cards number");
+        int num=Card.nextInt();
+        
         
         //insert code to ask the user for Card value and suit, create their card
         
