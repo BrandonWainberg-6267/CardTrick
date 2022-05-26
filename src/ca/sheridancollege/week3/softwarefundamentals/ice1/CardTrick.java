@@ -32,8 +32,15 @@ public class CardTrick {
         int num=Card.nextInt();
         
         
-        //insert code to ask the user for Card value and suit, create their card
         
+        //insert code to ask the user for Card value and suit, create their card
+          for(int i=0;i<magicHand.length;i++)
+         {
+             if (num==magicHand[i].getValue()&&suit==magicHand[i].getSuit())
+                 System.out.println("Nice job the card is in the hand");
+             else 
+                 System.out.println("Unfortunatly the card you have guessed is not in the hand");
+         }
         // and search magicHand here
         
         //Then report the result here
