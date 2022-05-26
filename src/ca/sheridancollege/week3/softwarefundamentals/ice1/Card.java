@@ -12,11 +12,16 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * There are 52 cards in a deck, no jokers.
  * This code is to be used in ICE1. When you create your own branch,
  * add your name as a modifier.
- * @author Brandon Wainberg
+ * @author Brandon Wainberg 991486267
  * Date: 2022-05-26 
  * Time Start of Modify: 2:53pm
+ * 
  */
 public class Card {
+
+    static String SUITS(double random) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
    private String suit; //clubs, spades, diamonds, hearts
    private int value;//1-13
